@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
       res => {
         console.log('logged in success');
       }, error => {
-        console.log('Failed');
+        console.log(error);
       }
     );
   }
